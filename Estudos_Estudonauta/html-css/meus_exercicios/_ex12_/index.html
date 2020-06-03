@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+    <link rel="shortcut icon" href="html.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedados localmente</h1>
+    <p>
+        Este vídeo está hospedado no meu próprio servidor.
+    </p>
+    <video width="560px" controls poster="midia/foto-plantao.jpg" loop>
+        <source src="midia/meu-video.mkv" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mkv">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <p>
+            Seu navegador não é compatível para reproduzir videos
+        </p>    
+    </video>
+    <h1>Inserindo vídeos com YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/S-BjdQK17qk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

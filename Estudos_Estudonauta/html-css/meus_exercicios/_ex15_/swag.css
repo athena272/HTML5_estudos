@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightgreen;
+    font-family: monospace;
+    font-size: 15px;
+}
+h1 {
+   color: rgb(0, 16, 245); 
+   background-color: orange;
+}
+h2{
+    color: tomato;
+}
+p{
+    text-align: justify;
+}
