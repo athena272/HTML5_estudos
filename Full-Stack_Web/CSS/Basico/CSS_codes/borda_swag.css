@@ -1,0 +1,40 @@
+.bordaSimples {
+    border: 5px solid blue;
+    /*border: expessura, estilo e cor*/
+}
+
+.borda {
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    margin-bottom: 20px;
+}
+
+.dotted {
+    border-style: dotted;
+    margin-bottom: 10px;
+}
+
+.dashed {
+    border-style: dashed;
+    margin-bottom: 10px;
+}
+
+.solid {
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+.none {
+    border-style: none;
+}
+
+.hidden {
+    border-style: hidden;
+}

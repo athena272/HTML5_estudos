@@ -1,0 +1,12 @@
+#base {
+    height: 10px;
+    background-color: red;
+}
+#container {
+    background-color: blue;
+    color: white;
+    margin-top: 10px; /*Distanciamento externo*/
+}
+#conteudo {
+
+}

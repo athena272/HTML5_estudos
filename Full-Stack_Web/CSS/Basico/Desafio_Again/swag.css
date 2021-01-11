@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    font-family: cursando;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(125, 0, 150, 0.493);
+    font-weight: bolder;
+}
+
+.carta {
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    background: url(Imagens/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 15%;
+
+}
+
+#inst {
+    list-style-image: url(Imagens/Insta.png);
+}
+
+#twitter {
+    list-style-image: url(Imagens/Twitter.png);
+}
+
+#yt {
+    list-style-image: url(Imagens/Youtube.png);
+}

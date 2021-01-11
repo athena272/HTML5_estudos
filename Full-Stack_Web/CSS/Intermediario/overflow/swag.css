@@ -1,0 +1,12 @@
+body {
+    font-size: 1.2rem;
+}
+
+#container {
+    color: rgb(129, 8, 145);
+    background-color: teal;
+    width: 300px;
+    height: 100px;
+
+    overflow: auto;
+}

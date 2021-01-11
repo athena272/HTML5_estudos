@@ -1,0 +1,22 @@
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    background-color: #f3e;
+    padding: 10px;
+}
+
+ol {
+    list-style: lower-roman;
+    list-style-position: inside;
+    padding: 0;
+    background-color: #59e;
+    padding: 10px;
+}
+
+li {
+    border: 3px solid rgb(12, 231, 147);
+    background-color: yellow;
+    margin: 7px;
+    padding: 5px;
+    border-radius: 8px;
+}

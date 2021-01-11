@@ -1,0 +1,15 @@
+p {
+    color: blue;
+}
+
+.container {
+    font-size: 20px;
+    width: 300px;
+    background: red;
+}
+
+.inside {
+    font-size: 2em;
+
+    background: blue
+}

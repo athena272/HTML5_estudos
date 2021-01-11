@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: red;
+    padding: 5px;
+    border: 5px solid blue;
+    margin: 10px
+}
+
+.content {
+    background-color: silver;
+    border: 5px solid green;
+    padding: 5px;
+}
+
+.square {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border: 10px solid blue;
+
+    box-sizing: border-box;
+}
+
+.square2 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    
+}

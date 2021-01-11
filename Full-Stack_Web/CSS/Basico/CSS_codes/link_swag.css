@@ -1,0 +1,17 @@
+.link:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    cursor: url;
+    padding: 3px;
+    background-color: silver;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bolder;
+    border: 3px solid green;
+    border-radius: 10px;
+}

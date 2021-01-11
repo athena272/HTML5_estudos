@@ -1,0 +1,29 @@
+#cm {
+    background-color: black;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm {
+    background-color: blue;
+    width: 5mm;
+    height: 5mm;
+}
+
+#in {
+    background-color: red;
+    width: 1in;
+    height: 1in;
+}
+
+#pixels {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+}
+
+#pontos {
+    background-color: chartreuse;
+    width: 10pt;
+    height: 10pt;
+}

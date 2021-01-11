@@ -1,0 +1,11 @@
+body {
+    font-size: 1.2rem;
+}
+
+#quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: auto;
+    
+}
