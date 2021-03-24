@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+	<title>Copa do Mundo Feminina</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+	</script>
+	<script>
+		$(document).ready(function () {
+			$("table").css("display", "none");
+		});
+	</script>
+	<script>
+		$(document).ready(function () {
+			$("#titulo").click(function () {
+				$("table").toggle(1000);
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function () {
+			$("#menuContato").click(function () {
+				alert('Você será redirecionado para a tela de Contatos!');
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function () {
+			$("#titulo").hover(function () {
+				$(this).css("cursor", "pointer");
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<center>
+		<div id="container">
+
+			<div id="titulo">
+				<h1>Copa do Mundo Feminina</h1>
+			</div>
+			<hr />
+
+			<ul id="lista">
+				<li style="color:white">Produtos</li>
+				<li style="color:black">Detalhes</li>
+				<li style="color:black">Contato</li>
+			</ul>
+
+			<div id="menu">
+				<a class="menu" href="index.html"><b>Produtos</b>&nbsp;<img src="../assets/produtos_icon.png" width="35"
+						height="35"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<a class="menu" id="menuContato" href="contato.html"> <b>Contato</b>&nbsp;<img src="../assets/contato_icon.png"
+						width="35" height="35"></a>
+
+
+				<!-- A tabela tem somente uma linha e tr�s colunas -->
+				<table border="0" WIDTH="800" HEIGHT="600">
+					<tr>
+						<td>
+							<center>
+								<a href="cam1.html">
+									<img src="../assets/p1.jpg" width="200" height="200">
+									<br>
+									<p class="nomesCamisa">Camisa Portugal<p>
+											<br>
+							</center>
+							</a>
+						</td>
+
+						<td>
+							<center>
+								<a href="cam2.html">
+									<img src="../assets/p2.jpg" width="200" height="200">
+									<br>
+									<p class="nomesCamisa">Camisa Inglaterra</p>
+									<br>
+							</center>
+							</a>
+						</td>
+
+						<td>
+							<center>
+								<a href="cam3.html">
+									<img src="../assets/p3.jpg" width="200" height="200">
+									<br>
+									<p class="nomesCamisa">Camisa França </p>
+									<br>
+							</center>
+							</a>
+						</td>
+
+					</tr>
+
+				</table>
+	</center>
+
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+body 
+{
+	background-image:url('../assets/plano_fundo.jpg'); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size:20px;
+	font: bold 12px/30px Comic Sans MS;
+
+}
+
+h1 
+{
+	font-size:70px;
+	text-align:center;
+}
+
+#lista
+{
+	position: relative;
+	float: left;
+	color: white;
+	font-size: 17px;
+	list-style-type: circle;
+}
+
+.nomesContato
+{
+	font-size: 22px;
+	color: white;
+}
+
+.nomesCamisa
+{
+	font-size: 17px;
+	color: black;
+}
+
+a.menu
+{
+	font-size:30px;
+}
+
+a:link 
+{
+	text-decoration:none;
+}
+
+a:visited 
+{
+	color:#000000;	
+} 
+
+a:visited 
+{
+	text-decoration:none;
+}
+
+div.produto 
+{
+	height:500px;
+	width:500px;
+	float:left;
+}
+
+div.descricao 
+{
+	height:600px;
+	width:600px;
+	float:left;
+	font-size: 22px;
+	color: white;
+}
