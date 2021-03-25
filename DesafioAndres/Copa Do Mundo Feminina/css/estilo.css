@@ -1,6 +1,6 @@
 body 
 {
-	background-image:url('../assets/plano_fundo.jpg'); 
+	background-image: url(../assets/plano_fundo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-size:20px;
@@ -70,3 +70,4 @@ div.descricao
 	font-size: 22px;
 	color: white;
 }
+
