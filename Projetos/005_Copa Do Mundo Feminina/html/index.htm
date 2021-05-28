@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+	<title>Olimpíadas Feminina de Futebol</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+		/*
+			$(document).ready(function(){
+				$("table").css("display","");
+			});
+
+			$(document).ready(function(){
+				$("#cProdutos").click(function(){
+					$("table").toggle(1000);
+				});
+			});
+*/
+		$(document).ready(function () {
+			$("#menuContato").click(function () {
+				alert('Voce tem certeza que deseja ser redirecionado para tela de contatos?');
+			});
+		});
+		/*
+					$(document).ready(function(){
+						$("#titulo").hover(function(){
+							$(this).css("cursor","pointer");
+						}); 
+					});
+		*/
+	</script>
+</head>
+
+<body>
+	<center>
+		<div id="container">
+
+			<div id="titulo">
+				<h1>Copa do Mundo</h1>
+			</div>
+			<hr />
+
+			<ul id="lista">
+				<li style="color:white">Produtos</li>
+				<li style="color:black">Detalhes</li>
+				<li style="color:black">Contato</li>
+			</ul>
+
+			<div id="menu">
+				<a class="menu" id="cProdutos" href="index.htm"><b>Produtos</b>&nbsp;<img
+						src="../imagens/produtos_icon.png" width="35" height="35"></a> &nbsp; &nbsp; &nbsp; &nbsp;
+				&nbsp; &nbsp;
+				<a class="menu" id="menuContato" href="contato.htm"> <b>Contato</b>&nbsp;<img
+						src="../imagens/contato_icon.png" width="35" height="35"></a>
+
+				<!-- A tabela tem somente uma linha e tr�s colunas -->
+				<table border="0" WIDTH="800" HEIGHT="600">
+					<tr>
+						<td>
+							<center>
+								<a href="cam1.htm">
+									<img src="../camisas/p1_feminina.png" width="200" height="200">
+									<br>
+									<p class="nomesCamisa">Camisa Portugal<p>
+											<br>
+							</center>
+							</a>
+						</td>
+
+						<td>
+							<center>
+								<a href="cam2.htm">
+									<img src="../camisas/inglaterra_feminina.jpg" width="200" height="200">
+									<br>
+									<p class="nomesCamisa">Camisa Inglaterra</p>
+									<br>
+							</center>
+							</a>
+						</td>
+
+						<td>
+							<center>
+								<a href="cam3.htm">
+									<img src="../camisas/camisa_brasil.jpeg" width="200" height="200">
+									<br>
+									<p class="nomesCamisa">Camisa Brasil </p>
+									<br>
+							</center>
+							</a>
+						</td>
+
+					</tr>
+
+				</table>
+	</center>
+
+	</div>
+
+</body>
+
+</html>

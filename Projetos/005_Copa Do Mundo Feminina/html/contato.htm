@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css" />
+	<!--script type="text/javascript" src="copa.js" ></script-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+	<title>Olimpíadas Feminina de Futebol</title>
+		<script>
+			$(document).ready(function(){
+				$("#form_contato").validate({
+					rules : {
+						idade:{
+							required: true,
+							min: 18
+						},  
+						CPF:{
+							required: true,
+							minlength: 11,
+							maxlength: 11,
+							
+						},                      
+					},
+					messages:{
+						idade:{
+							required:" Por favor, informe sua idade",
+							min:" Você precisa ter no mínimo 18 anos",
+						},
+						CPF:{
+							required:" Por favor, informe seu CPF",
+							minlength:" Informe 11 dígitos min",
+							maxlength:" Informe 11 dígitos max",
+						}
+								
+					}
+				});
+			})
+		</script>
+	</head>
+	<body>
+		<center>
+			<div id="container">
+
+				<div id="titulo">
+					<h1>Copa do Mundo</h1>
+				</div>
+
+				<ul id="lista">
+					<li style="color:black" >Produtos</li>
+					<li style="color:black" >Detalhes</li>
+					<li style="color:white">Contato</li>
+				</ul>
+
+				<div id="menu" >
+					<a class="menu" href="index.htm"><b>Produtos</b>&nbsp;<img src="../imagens/produtos_icon.png" width="35" height="35"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					<a class="menu" href="contato.htm"> <b>Contato</b>&nbsp;<img src="../imagens/contato_icon.png" width="35" height="35"></a>
+					<br><br><br>
+				</div>
+
+				<form action="MAILTO:andres.s.menendez@gmail.com" method="post" enctype="text/plain" id="form_contato">
+					<p class="nomesContato">Nome:
+					<input type="text" name="nome"></p>
+					<p class="nomesContato">E-mail:
+					<input type="text" name="mail"></p>
+					<p class="nomesContato">
+						<label for="cIdade">Idade: </label>
+						<input type="number" name="idade" id="cIdade" min="0" placeholder="Sua idade">
+					</p>
+					<p class="nomesContato">
+						<label for="cCPF">CPF: </label>
+						<input type="text" name="CPF">
+					</p>
+					<p class="nomesContato">Comentário:</p>
+					<textarea name="comentario"  rows="5" cols="40">Escreva seu comentário...</textarea>
+					<br>
+					<input type="submit" value="Enviar" id="cEnviar">
+					<input type="reset" id="botao"  value="Limpar">
+				</form>
+			</div>
+
+		</center>
+	</body>
+
+</html>

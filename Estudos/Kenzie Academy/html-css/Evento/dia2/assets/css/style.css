@@ -1,0 +1,180 @@
+/*
+Theme Name: Start sua carreira
+Theme URI: http://www.startsuacarreira.com.br
+Author: Kenzie Academy BR
+Author URI: https://kenzie.com.br;
+Description: Descrição do thema.
+Version: 1.0
+
+--------------------------------------------
+ESTRUTURA BASE
+--------------------------------------------
+**** DECLARAÇÃO DE VARIAVEIS
+**** ESTILOS GERAIS
+**** BODY
+**** HEADER
+**** FOOTER
+**** PÁGINA INICIAL
+**** EXTRAS
+**** @MEDIA
+
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+/* ESTILOS GERAIS */
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.coluna{
+    flex-basis: 49%;
+}
+
+.hidden{
+    display: none;
+}
+
+
+/* BODY */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* HEADER */
+header{
+    background-color: #45dbfc;
+    padding-top: 30px;
+}
+header .container{
+    background-color: white;
+}
+header .linha{
+    align-items: center;
+}
+header .coluna{}
+header .coluna-esquerda{
+    flex-basis: 30%;
+}
+header .coluna-direita{
+    flex-basis: 70%;
+}
+header .coluna figure{}
+header .coluna img{
+    max-width: 250px;
+    border-radius: 100%;
+}
+header .coluna h1{
+    font-size: 1.5rem;
+}
+header .coluna p{
+    font-size: 1rem;
+    color: #636363;
+}
+header .coluna ul{
+    margin: 16px 0 0;
+}
+header .coluna ul li{
+    margin: 0 0 12px;
+}
+header .coluna ul li a{
+    font-size: 1rem;
+    color: black;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #04133d;
+}
+footer .container{}
+footer nav{}
+footer nav ul{}
+footer nav ul li{}
+footer nav ul li a{
+    color: white;
+}
+footer nav .info-contato{}
+footer nav .info-contato li{
+    margin: 0 0 15px;
+}
+footer nav .info-contato li a{}
+footer nav .redes-sociais{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(255 255 255 / 20%);
+    margin: 20px 0 50px;
+    padding: 50px 0 0;
+}
+footer nav .redes-sociais li{
+    margin: 0 14px;
+    text-align: center;
+}
+footer nav .redes-sociais li a{}
+footer nav .redes-sociais li a img{
+    width: 40px;
+}
+footer nav .redes-sociais li a img p{}
+
+
+/* PÁGINA INICIAL */
+main{}
+main .container{}
+main .linha{}
+main .coluna{}
+main .coluna-esquerda{}
+main .coluna-direita{}
+main .coluna section{
+    border: 1px solid #d4e9ff;
+    margin: 0 0 20px;
+    padding: 20px;
+    min-height: 187px;
+}
+main .coluna section h2{
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+}
+main .coluna section p{
+    font-size: 0.9rem;
+    color: #636363;
+    line-height: 1.5;
+}
+main .coluna section ul{}
+main .coluna section ul li{
+    margin: 0 0 12px;
+}
+main .coluna section ul li h3{
+    font-size: 1.1rem;
+}
+main .coluna section ul li strong{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 5px 0 10px;
+    display: inline-block;
+}
+main .coluna section ul li p{}
+
+
+/* EXTRAS */
+
+
+/* @MEDIA */

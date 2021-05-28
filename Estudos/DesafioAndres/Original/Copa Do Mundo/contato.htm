@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="estilo.css" />
+<!--script type="text/javascript" src="copa.js" ></script-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<title>Copa Do Mundo</title>
+
+</head>
+<body>
+
+<center>
+<div id="container">
+
+<div id="titulo">
+<h1>Copa Do Mundo</h1></div>
+
+<ul id="lista">
+	<li style="color:black" >Produtos</li>
+	<li style="color:black" >Detalhes</li>
+	<li style="color:white">Contato</li>
+</ul>
+
+<div id="menu" >
+<a class="menu" href="index.htm"><b>Produtos</b>&nbsp;<img src="produtos_icon.png" width="35" height="35"></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<a class="menu" href="contato.htm"> <b>Contato</b>&nbsp;<img src="contato_icon.png" width="35" height="35"></a>
+<br><br><br>
+
+<form action="MAILTO:andres.s.menendez@gmail.com" method="post" enctype="text/plain">
+<p class="nomesContato">Nome:
+<input type="text" name="nome"></p>
+<p class="nomesContato">E-mail:
+<input type="text" name="mail"></p>
+<p class="nomesContato">Comentário:</p>
+<textarea name="comentario"  rows="5" cols="40">Escreva seu comentário...</textarea>
+<br>
+<input type="submit" value="Enviar">
+<input type="reset" id="botao"  value="Limpar">
+</form>
+
+
+</center>
+</body>
+
+
+</html>
