@@ -28,9 +28,12 @@ function Calcular() {
 
     console.log(quantidadeDeBebidas)
 
-    resultado.innerHTML = '<p>${quantidadeDeCarne / 1000}Kg de Carne </p>'
-    resultado.innerHTML += '<p>${quantidadeDeCerveja / 1000}L de Cerveja </p>'
-    resultado.innerHTML += '<p>${quantidadeDeBebidas / 1000}L de Bebidas </p>'
+    resultado.innerHTML = `<br>`
+    resultado.innerHTML += `<p>${quantidadeDeCarne / 1000} Kg de Carne </p>`
+    resultado.innerHTML += `<br>` 
+    resultado.innerHTML += `<p>${Math.ceil(quantidadeDeCerveja / 355)} Latas de Cerveja </p>`
+    resultado.innerHTML += `<br>`
+    resultado.innerHTML += `<p>${Math.ceil(quantidadeDeBebidas / 2000)} Garrafas de Bebidas </p>`
 
 }
 
